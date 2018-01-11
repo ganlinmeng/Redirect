@@ -26,8 +26,8 @@
     NSURLSession *session = [NSURLSession sharedSession];
     NSURLSessionDataTask *task = [session dataTaskWithRequest:quest completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
         NSHTTPURLResponse *res = (NSHTTPURLResponse *)response;
-        NSLog(@"location2 code: %ld",res.statusCode);
-        NSLog(@"location2重定向之后的地址是: %@",res.URL);
+//        NSLog(@"location2 code: %ld",res.statusCode);
+//        NSLog(@"location2重定向之后的地址是: %@",res.URL);
         if (!data) {
             errorBlock(error);
         }else{
