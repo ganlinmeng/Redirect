@@ -6,7 +6,9 @@ Pod::Spec.new do |s|
   s.name         = "Redirect"
   s.version      = "0.0.1"
   s.summary      = "Redirecting Requests."
-  s.description  = "This is a Redirecting Requests."
+  s.description  = <<-DESC 
+                          This is a Redirecting Requests.
+                   DESC
   s.homepage     = "http://www.cnblogs.com/ljcgood66/"
   s.license      = "MIT"
   s.author       = { "LiJunCheng" => "1139981137@qq.com" }
