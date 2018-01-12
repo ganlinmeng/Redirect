@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "Redirect"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Redirecting Requests."
   s.description  = <<-DESC 
                           This is a Redirecting Requests.
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "LiJunCheng" => "1139981137@qq.com" }
   s.platform     = :ios
-  s.source       = { :git => "https://github.com/ganlinmeng/Redirect.git", :tag =>"0.0.1" }
+  s.source       = { :git => "https://github.com/ganlinmeng/Redirect.git", :tag =>"0.0.2" }
   s.source_files  = "Redirect", "Redirect/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
   s.framework  = "UIKit"
